@@ -1,8 +1,15 @@
+body{
+    font-family: 'Heebo', sans-serif;
+    background: blue;
+}
+
 .contener{
     display: flex;
     align-items: center;
-    background-color: lightblue;
-    margin: 50px 50px;
+    background-color:lightslategray;
+    margin-top: 50px;
+    margin-left: 200px;
+    margin-right: 200px;
 }
 
 .img-time{
@@ -11,18 +18,70 @@
 
 .titulo{
     font-size: 40px;
-    font-weight: 700;
+    font-weight: 500;
+    font-family: 'Heebo';
     text-align: center;
     margin-bottom: 20px;
 }
 
 .paragrafo{
     font-size: 20px;
-    font-weight: 500;
+    font-weight: 400;
+    font-family: 'Heebo';
     text-align: center;
     margin-bottom: 20px;
 }
 
 .formulario{
     margin-left: 100px;
+}
+
+.tel{
+    width: 300px;
+    height: 24px;
+    border-radius: 5px;
+    border-style:none;
+
+}
+
+.titulo-form{
+    font-size: 18px;
+    font-weight: 500;
+    font-family: 'Heebo';
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+.nome{
+    width: 300px;
+    height: 24px;
+    border-radius: 5px;
+    border-style:none;
+    
+}
+
+.endereco{
+    width: 300px;
+    height: 24px;
+    border-radius: 5px;
+    border-style: none;
+}
+
+.data{
+    width: 150px;
+    height: 20px;
+    border-radius: 5px;
+}
+
+.botao{
+    color: aliceblue;
+    background: blue;
+    font-size: 20px;
+    width: 300px;
+    height: 40px;
+    border-style:none;
+    border-radius: 20px;
+    box-shadow: 2px 2px 3px lightblue;
+    margin-top: 20px;
+
 }

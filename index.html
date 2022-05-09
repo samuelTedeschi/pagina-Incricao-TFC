@@ -9,6 +9,10 @@
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="shortcut icon" href="./img/tamanda.png" type="image/x-icon">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500&display=swap" rel="stylesheet">
 </head>
 <body>
     <section class="contener">
@@ -20,23 +24,39 @@
                 <h1 class="titulo">Inscriçoes Aberta</h1>
                 <p class="paragrafo">Jogue no time tamandare, para competir no campeonato regional de futebol </p>
             </div>
-            <form class="formulario">
-                <p class="titulo-form">Nome</p>
-                <input type="text" >
-                <p class="titulo-form">Sobrenome</p>
-                <input type="text">
-                <p class="titulo-form">idade</p>
-                <input type="date">
-                <p class="titulo-form">endereço</p>
-                <input type="text">
-                <p class="titulo-form">telefone</p>
-                <input type="tel">
-                <p class="titulo-form">posisao</p>
-                <input type="">
+            <form class="formulario" action="" target="_top">
+                <p class="titulo-form">Nome Completo</p>
+                <input type="text" class="nome">
+               
+                <p class="titulo-form">Data de Nacimento</p>
+                <input type="date" class="data">
+                
+                <p class="titulo-form">Endereço</p>
+                <input type="text" value="rua joao fulano" class="endereco">
+                
+                <p class="titulo-form">Telefone</p>
+                <input type="tel" value="(00) 1234-5678" class="tel">
+               
+                <p class="titulo-form">Posisao</p>
+                <select name="posicao" id="posicao">
+                    <option value="atacante">atacante</option>
+                    <option value="meia">Meio-campo</option>
+                    <option value="zagueiro">zagueiro</option>
+                    <option value="lateral">latela</option>
+                    <option value="goleiro">Goleiro</option>
+                </select>
+
+                <p class="titulo-form">Direiro ou Canhoto</p>
+                    <input type="radio" name="posicao" id="direiro">
+                    <label for="direiro">Direito</label>
+                    <input type="radio" name="posicao" id="canhoto">
+                    <label for="canhoto">Canhoto</label>
+                    
+                    
+                <div>
+                    <input type="button" value="cadastra-se" class="botao" onclick="alert('Cadastro Realizado')">
+                </div>
             </form>
-            <div>
-                <input type="button" value="cadastra-se">
-            </div>
         </div>
     </section>
 </body>
