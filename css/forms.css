@@ -1,0 +1,33 @@
+.titulo-form{
+    font-size: 1rem;
+    font-weight: 500;
+    font-family: 'Heebo';
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+.nome{
+    width: 300px;
+    height: 24px;
+    border-radius: 5px;
+    border-style:none;
+    
+}
+
+.endereco{
+    width: 300px;
+    height: 24px;
+    border-radius: 5px;
+    border-style: none;
+}
+
+.data{
+    width: 150px;
+    height: 20px;
+    border-radius: 5px;
+}
+
+
+.posisao{
+    height: 28px;
+}

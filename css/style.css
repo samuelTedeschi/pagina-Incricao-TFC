@@ -1,17 +1,18 @@
 
 body{
     font-family: 'Heebo', sans-serif;
+}
+
+.contener-total{
+    display: flex;
+    align-items: center;
     background: linear-gradient(#041875, white);
 }
 
-.contener{
-    display: flex;
-    align-items: center;
+.contener-conteudo{
     background-color: #6679a0;
-    margin-top: 50px;
-    margin-left: 200px;
-    margin-right: 200px;
-    margin-bottom: 80px;
+    
+
 }
 
 .img-time{
@@ -47,35 +48,6 @@ body{
 
 }
 
-.titulo-form{
-    font-size: 1rem;
-    font-weight: 500;
-    font-family: 'Heebo';
-    margin-bottom: 5px;
-    margin-top: 5px;
-}
-
-.nome{
-    width: 300px;
-    height: 24px;
-    border-radius: 5px;
-    border-style:none;
-    
-}
-
-.endereco{
-    width: 300px;
-    height: 24px;
-    border-radius: 5px;
-    border-style: none;
-}
-
-.data{
-    width: 150px;
-    height: 20px;
-    border-radius: 5px;
-}
-
 .botao{
     color: aliceblue;
     background: blue;
@@ -88,10 +60,6 @@ body{
     cursor: pointer;
     margin-top: 10px;
 
-}
-
-.posisao{
-    height: 28px;
 }
 
 .rodape{
