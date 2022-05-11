@@ -19,12 +19,23 @@
     height: 24px;
     border-radius: 5px;
     border-style: none;
+    color: gray;
 }
 
 .data{
     width: 150px;
     height: 20px;
     border-radius: 5px;
+    
+}
+
+.tel{
+    width: 300px;
+    height: 24px;
+    border-radius: 5px;
+    border-style:none;
+    color: gray;
+
 }
 
 

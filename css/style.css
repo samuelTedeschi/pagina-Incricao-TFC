@@ -5,19 +5,18 @@ body{
 
 .contener-total{
     display: flex;
-    align-items: center;
     background: linear-gradient(#041875, white);
+    padding-top: 50px;
+    padding-left: 120px;
+    padding-right: 120px;
 }
 
 .contener-conteudo{
     background-color: #6679a0;
-    
-
 }
 
 .img-time{
     width: 500px;
-    
 }
 
 .titulo{
@@ -25,7 +24,8 @@ body{
     font-weight: 500;
     font-family: 'Heebo';
     text-align: center;
-    margin-bottom: 15px;
+    margin-top: 20px;
+   
 }
 
 .paragrafo{
@@ -33,19 +33,13 @@ body{
     font-weight: 400;
     font-family: 'Heebo';
     text-align: center;
-    margin-bottom: 15px;
+    margin-top: 10px;
+    
 }
 
 .formulario{
-    margin-left: 50px;
-}
-
-.tel{
-    width: 300px;
-    height: 24px;
-    border-radius: 5px;
-    border-style:none;
-
+    margin-left: 150px;
+    margin-top: 10px;
 }
 
 .botao{
@@ -59,9 +53,35 @@ body{
     box-shadow: 2px 2px 3px lightblue;
     cursor: pointer;
     margin-top: 10px;
-
+   
 }
 
 .rodape{
     text-align: center;
+    margin-top: 70px;
+    padding-bottom: 10px;
+    padding-top: 5px;
+    background-color: #041875;
+    color: aliceblue;
+}
+
+@media only screen and (max-width: 600px){
+    .contener-total{
+        display: flex;
+        flex-wrap: wrap;
+        padding-top: 50px;
+        padding-left: 30px;
+    }
+
+    .botao{
+        margin-bottom: 10px;
+    }
+
+    .formulario{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .img-time{
+        width: 324px;
+    }
 }
